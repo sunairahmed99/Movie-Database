@@ -1,0 +1,58 @@
+.box{
+    background-color: aqua;
+    width: 20rem;
+    height: 24.5rem;
+}
+.box .img{
+    height: 18rem;
+    width: 100%;
+}
+.box .img img{
+    height: 18rem;
+    width: 100%;
+}
+.box .txt{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+.box .txt>:nth-child(1){
+    font-weight: bold;
+}
+.rendermovies{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+}
+.rendershows{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+    padding: 0px 10px;
+}
+.main h1{
+    color: white;
+    padding-left: 20px;
+}
+ 
+a{
+    color: white;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    
+}
+
+
+@media screen and (max-width: 600px){
+    .box{
+        background-color: aqua;
+        width: 100vw;
+        height: 23rem;
+        margin-top: 2rem;
+        
+    }
+
+
+}

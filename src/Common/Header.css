@@ -1,0 +1,59 @@
+.header{
+    width: 100%;
+}
+.header .container{
+    background-color: aqua ;
+    max-width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+.search{
+    width: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    align-items: center;
+    height: 4rem;
+}
+.search form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.search input{
+    width: 70%;
+    border: none;
+    padding: 20px;
+    outline: none;
+    border: none;
+}
+.search form span{
+    width: 20%;
+    color: white;
+}
+.search form span i{
+    font-size: 2rem;
+}
+
+@media screen and (max-width:500px){
+    .header{
+        
+        width: 100%;
+    }
+    .header .container{
+        max-width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header .container div h1{
+        font-size: .8rem;
+    }
+
+    
+}
